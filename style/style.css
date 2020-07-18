@@ -1,0 +1,291 @@
+@font-face {
+  src: url('../fonts/BebasNeueRegular.ttf');
+  font-family: 'Bebas';
+}
+@font-face {
+  src: url('../fonts/Helvetica-Condensed-Light.otf');
+  font-family: 'Helvetica';
+}
+@font-face {
+  src: url('../fonts/PTSans-Regular.ttf');
+  font-family: 'PTSans';
+}
+@font-face {
+  src: url('../fonts/CAMBRIAI.ttf');
+  font-family: 'cambria';
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+
+}
+.logo {
+  color: #404040;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.logo h1 {
+  font-family: 'Bebas';
+  font-size: 36px;
+}
+.logo h3 {
+  font-family: 'Arial';
+
+}
+.top-menu {
+  margin-right: 300px;
+  float: right;
+  margin-top: -100px;
+  height: 76px;
+  display: flex;
+
+}
+.top-menu a {
+  width: 60px;
+  margin-left: 17px;
+  text-decoration: none;
+  color: #404040;
+}
+.top-menu a:hover {
+  color: white;
+  background-color: #d45e5e;
+}
+.top-menu a p {
+  text-align: center;
+  padding-top: 42px;
+  font-family: 'Helvetica';
+  font-size: 17px;
+}
+.conn1 {
+  margin-top: 80px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: 10px 10px 10px #dddddd;
+}
+.conn1 h2 {
+  font-size: 140px;
+  color: #dddddd;
+  font-family: Arial;
+  font-weight: bolder;
+  height: 100px;
+}
+.conn1 p {
+  color: #404040;
+  font-size: 22px;
+  width: 500px;
+  margin-left: 460px;
+  font-family: 'cambria';
+  font-style: italic;
+  margin-bottom: 32px;
+}
+#works {
+  margin-top: 55px;
+  margin-left: 180px;
+}
+#works h2 {
+  color: #404040;
+  font-family: 'cambria';
+  font-style: italic;
+  margin-bottom: 45px;
+  width: 100px;
+}
+.list a {
+  margin: 10px;
+}
+#resume {
+  margin-top: 140px;
+  height: 300px;
+  background-color: #d45e5e;
+  position: relative;
+  color: white;3
+}
+.avatar {
+  position: absolute;
+  width: 115px;
+  height: 130px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  top: -30px;
+  left: 180px;
+  border-radius: 5px;
+}
+.avatar img {
+  width: 100px;
+  height: 120px;
+}
+.info {
+  margin-left: 330px;
+  padding-top: 40px;
+}
+.info h2 {
+  font-size: 25px;
+  font-family: 'cambria';
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.info p {
+  font-family: 'PTSans';
+
+}
+.info p img {
+  padding-right: 10px;
+
+}
+.about {
+  width: 590px;
+  font-family: 'PTSans';
+  margin-left: 180px;
+  padding-top: 30px;
+  font-size: 13px;
+}
+.url {
+  position: absolute;
+  margin-left: 600px;
+  top: 30px;
+}
+.stat {
+  margin-left: 845px;
+  margin-top: -120px;
+}
+.stat h2 {
+  font-size: 25px;
+  font-family: 'cambria';
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.fon  {
+  margin-left: 10px;
+  margin-top:7px;
+  width: 200px;
+  height: 10px;
+  background-color: #e27878;
+}
+.blac {
+  margin-left: 10px;
+  margin-top: 7px;
+
+  height: 10px;
+  background-color: #282828;
+  margin-left: -200px;
+}
+.elm {
+  display: flex;
+  font-family: 'PTSans';
+  font-size: 18px;
+  margin-top: 15px;
+}
+footer {
+  height: 39px;
+  background-color: #282828;
+  color: white;
+  font-family: 'PTSans';
+}
+footer p {
+  padding-top: 10px;
+  padding-left: 1000px;
+  font-size: 13px;
+}
+@media all and (max-width:1024px) and (orientation: portrait) {
+  html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .logo {
+    margin-left: 30px;
+    margin-top: 33px;
+    width: 200px;
+
+  }
+  .border {
+    margin-top: 30px;
+    background-color: #cfcfcf;
+    height: 1px;
+    width: 100%;
+  }
+  .top-menu {
+    margin-top: 17px;
+    margin-left:40px;
+    height:17px;
+    float: left;
+  }
+  .top-menu a:hover  {
+    color: black;
+    background-color: white;
+  }
+  .conn1 {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .conn1 p {
+    margin-left:40px;
+    font-size: 14px;
+    width: 300px;
+  }
+  #works {
+    margin-left: 5px;
+    padding-top: 50px;
+    margin: 20px;
+    width: 300px;
+  }
+  .list {
+    display: flex;
+    margin-left: -15px;
+    width: 100%;
+  }
+  #works a img {
+    height: 130px;
+    width: 130px;
+  }
+  #resume {
+    height: 600px;
+    width:100%;
+  }
+  .avatar {
+    left: 30px;
+  }
+  .info {
+    margin-left: 200px;
+    padding-top: 27px;
+    width: 150px;
+  }
+  .about {
+    margin-left: 30px;
+    width: 300px;
+  }
+  .url {
+    position: inherit;
+    margin-left: 60px;
+    margin-top: 0px;
+
+  }
+  .border_2 {
+    margin-top: 60px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+
+  }
+  .stat {
+    margin-left: 40px;
+    margin-top: 47px;
+    width: 300px;
+  }
+  footer {
+    width:100%;
+    text-align:center;
+  }
+  footer p {
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 200px;
+  }
+
+}
