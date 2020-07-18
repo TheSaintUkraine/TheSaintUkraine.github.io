@@ -1,0 +1,144 @@
+
+@font-face {
+	font-family: Lavanda;
+	src:url(../Font/LavanderiaRegular.otf);
+}
+@font-face {
+	font-family:Alte;
+	src:url(../Font/AlteHaasGroteskRegular.ttf);
+}
+@font-face {
+	font-family: Wp;
+	src:url(../Font/SegoeWPLight.otf);
+}
+html {
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.con1 {
+	position: relative;
+}
+.sticky {
+	position: sticky;
+	top:0;
+}
+.logo {
+	font-family: Lavanda;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 166px;
+}
+span {
+	color: #b73958;
+}
+.bg {
+	width: 100%;
+	height: 90px;
+	z-index: 10;
+	position: absolute;
+	background-color: rgba(232,234,232,0.7);
+}
+.nav {
+	text-decoration: none;
+	color: #817a7b;
+	margin-left: 40px;
+	font-size: 17px;
+	font-family: Segoe UI;
+	padding: 5px;
+}
+nav {
+	position: absolute;
+	right: 100px;
+	top: 35px;
+}
+.nav:hover {
+	color: white;
+	background-color: #de6d6e;
+	border-radius: 5px;
+}
+.ban_txt {
+	position: absolute;
+	color: white;
+	top: 415px;
+	font-family:Alte;
+	text-transform: uppercase;
+	font-size: 68px;
+	left: 314px;
+}
+.ban_txt2 {
+	position: absolute;
+	color: white;
+	top:490px;
+	font-family: Wp ;
+	
+	font-size: 25px;
+	left: 420px;
+}
+.conn2 {
+	margin-top: 50px;
+}
+h2 {
+	font-family: Wp;
+	color: #404040;
+	margin-left: 400px;
+	font-size: 35px;
+}
+.c2_txt {
+	height: 40px;
+	width: 70%;
+	font-family: Wp;
+	color: #404040;
+	margin-left: 228px;
+}
+.ball {
+	margin-top: 100px;
+	margin-left: 230px;
+}
+.ball img {
+	margin-left: 70px;
+}
+.bor {
+	width: 99.8%;
+	margin-top: 70px;
+	border: 1px solid #e9e9e9;
+}
+.conn3 {
+	margin-top: 55px;
+}
+.sect {
+	margin-top: 81px;
+	position: relative;
+	margin-left: 195px;
+	font-family: Wp;
+}
+.text {
+	position: absolute;
+	left: 220px;
+	top: 5px;
+	width:720px;
+	height: 74px;
+}
+footer {
+	margin-top: 76px;
+	position: relative;
+}
+.cont {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 883px;
+}
+.cont a {
+	margin-left: 40px;
+}
+#developer {
+	position: absolute;
+	top: 25px;
+	left:50px;
+	color: white;
+	font-family: Wp;
+}

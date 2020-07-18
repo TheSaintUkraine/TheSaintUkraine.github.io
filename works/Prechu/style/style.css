@@ -1,0 +1,203 @@
+@font-face {
+	font-family: SSP;
+	src:url(../font/SourceSansPro-Regular.ttf);
+}
+@font-face {
+	font-family: SegoeWPN;
+	src:url(../font/SegoeWPN.ttf);
+}
+@font-face {
+	font-family: SegoeWP light;
+	src:url(../font/SegoeWPLight.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.head {
+	width: 100%;
+	height: 60px;
+}
+.logo {
+	width: 180px;
+}
+.logo p {
+	font-family: SegoeWP light;
+	font-size: 43px;
+	position: absolute;
+	top: 15px;
+	left: 200px;
+
+}
+.logo img {
+	position: absolute;
+	top: 25px;
+	left: 141px;
+}
+nav {
+	margin-left: 721px;
+	margin-top: 50px;
+}
+.nav_a {
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	margin-left: 32px;
+	padding: 10px;
+	font-family: SegoeWPN;
+	padding-bottom: 30px;
+}
+.nav_a:hover {
+	border-bottom: 4px solid #5094f2;
+}
+.blok {
+	position: relative;
+}
+.iphon {
+	position: absolute;
+	top: 37px;
+	left: 180px;
+}
+.kl {
+	position: absolute;
+	top: 470px;
+	left: 0;
+	z-index: 1;
+}
+p {
+	z-index: 5;
+}
+.blok_h {
+	font-size: 43px;
+	font-family: SegoeWP light;
+	position: absolute;
+	top: 157px;
+	left: 630px;
+	color: white;
+}
+.blok_p {
+	width: 300px;
+	font-size: 27px;
+	font-family: SegoeWP light;
+	position: absolute;
+	top: 214px;
+	left: 630px;
+	color: white;
+}
+.button {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 315px;
+	left: 640px;
+	background-color: #5094f2;
+	width: 174px;
+	height: 41px;
+	border-radius: 4px;
+	font-family: SegoeWP light;
+	font-size: 23px;
+}
+.button p {
+	position: absolute;
+	top: 4px;
+	margin-left: 45px;
+
+}
+.button img {
+	margin-top: 9px;
+	margin-left: 11px;
+}
+.conn2 {
+	margin-left: 176px;
+	margin-right: 176px;
+	z-index: 1;
+	margin-top: 71px;
+	display: flex;
+	justify-content: space-between;
+}
+.c1 {
+	background-color: #5094f2;
+}
+.c2 {
+	background-color: #d94748;
+}
+.c3 {
+	background-color: #ebbb11;
+}
+.bl {
+
+}
+.ball {
+	width: 188px;
+	height: 188px;
+	border-radius: 100px;
+}
+.ball img {
+	margin-left: 60px;
+	margin-top: 40px;
+}
+.ball2 img {
+	margin-left: 45px;
+	margin-top: 51px;
+}
+.conn2 h2 {
+	margin-top: 32px;
+	font-family: SegoeWPN;
+	color: #5094f2;
+	font-size: 21px;
+}
+.conn2 p {
+	color: #909090;
+	font-size: 17px;
+	font-family: SegoeWPN;
+	margin-top: 15px;
+	width: 260px;
+}
+.conn3 {
+	margin-top: 105px;
+	position: relative;	
+}
+.info_bl {
+	position: absolute;
+	top:55px;
+}
+.info_bl p {
+	width: 415px;
+	font-family: SegoeWP light;
+	font-size: 16px;
+	margin-left: 613px;
+	margin-top: 30px;
+	line-height: 38px;
+}
+.conn3 h2 {
+	font-size: 43px;
+	color: #909090;
+	font-family: SegoeWPN;
+	margin-left: 172px;
+}
+.conn3 h3 {
+	font-size: 27px;
+	color: #909090;
+	font-family: SegoeWPN;
+	margin-left: 613px;
+}
+.conn3 img {
+	margin-left: 165px;
+	margin-top: 42px;
+}
+.border {
+	margin-top: 70px;
+	border: 1px solid #e5e5e5
+}
+footer {
+	margin-top: 35px;
+}
+footer p {
+	font-size: 25px;
+	margin-left: 550px;
+	color: #979797;
+	font-family: SegoeWP light;
+}
+#bottom {
+	margin-top: 50px;
+}
