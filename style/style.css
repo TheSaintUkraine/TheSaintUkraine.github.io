@@ -83,6 +83,7 @@ header {
   font-family: 'cambria';
   font-style: italic;
   margin-bottom: 32px;
+  text-align:center;
 }
 #works {
   margin-top: 55px;
