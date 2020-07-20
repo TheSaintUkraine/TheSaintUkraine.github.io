@@ -242,6 +242,7 @@ footer p {
   }
   .list {
     display: flex;
+    flex-wrap:wrap;
     margin-left: -15px;
     width: 100%;
   }
