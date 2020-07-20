@@ -96,6 +96,10 @@ header {
   margin-bottom: 45px;
   width: 100px;
 }
+.list {
+  display:flex;
+  flex-wrap: wrap;
+}
 .list a {
   margin: 10px;
 }
