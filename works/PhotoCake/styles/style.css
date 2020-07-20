@@ -1,0 +1,124 @@
+@font-face {
+  font-family:'Lobster';
+  src:url(../fonts/Lobster.ttf);
+}
+@font-face {
+  font-family:'HelveticaCERegular';
+  src:url(../fonts/HelveticaCERegular.ttf);
+}
+@font-face {
+  font-family:'HelveticaCE-Bold';
+  src:url(../fonts/Helvetica-CE-Bold_22457.ttf);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+header {
+  background-image: url(../images/bg_header.png);
+  width: 100%;
+  height: 120px;
+}
+.logo {
+  font-family:'Lobster';
+  font-size: 50px;
+  color: #676666;
+  padding-top: 20px;
+  padding-left: 160px;
+}
+.logo span {
+  color: #ff7700;
+}
+nav {
+  padding-left: 720px;
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+nav a  {
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family:'HelveticaCERegular';
+  height: 109px;
+  color: #545454;
+}
+nav a:hover {
+  border-bottom: 3px solid #ff7d00;
+}
+nav a img {
+  padding-top: 40px;
+}
+form {
+  width: 600px;
+  padding-top: 50px;
+  margin: auto;
+  position: relative;
+  font-family:'HelveticaCE-Bold';
+}
+form h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  color: #565555;
+}
+form input {
+
+  width: 450px;
+  height: 48px;
+  font-size: 30px;
+  border: 1px solid #cacaca;
+}
+form button {
+  font-size: 24px;
+  font-family:'HelveticaCE-Bold';
+  color: white;
+  background-image: url(../images/button_bg.png);
+  border: none;
+  height: 47px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 16px;
+  position: absolute;
+  top:108px;
+}
+.list {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.elm {
+  border: 1px solid #d6d6d6;
+  width: 216px;
+  display: block;
+  margin: 10px;
+}
+.elm img {
+  padding-left: 7px;
+  padding-top: 7px;
+  width: 203px;
+  height: 197px;
+}
+
+.elm h3 {
+  padding-top: 14px;
+  padding-left: 16px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #979393;
+  font-family:'HelveticaCERegular';
+}
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #979393;
+  font-family:'HelveticaCERegular';
+}
