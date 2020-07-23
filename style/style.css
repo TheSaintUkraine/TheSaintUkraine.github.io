@@ -195,7 +195,7 @@ footer {
 }
 footer p {
   padding-top: 10px;
-  padding-left: 1000px;
+  text-align:center;
   font-size: 13px;
 }
 @media all and (max-width:1024px) and (orientation: portrait) {
