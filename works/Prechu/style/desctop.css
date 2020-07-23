@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "SegoeWPLight";
+  src: url("../font/SegoeWPLight.ttf");
+}
+@font-face {
+  font-family: "SegoeWPN";
+  src: url("../font/SegoeWPN.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src:url(../font/SourceSansPro-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 89px;
+  position: relative;
+}
+.mobile-nav {
+  width: 0;
+  height: 0;
+}
+.ball {
+  font-family: "Source Sans Pro";
+  font-size: 64px;
+  width: 44px;
+  height: 44px;
+  background-color: #5094f2;
+  color: white;
+  border-radius: 100px;
+  margin-top: 8px;
+}
+.ball p {
+  margin-left: 8px;
+  margin-top: -5px;
+}
+.logo {
+  display: flex;
+  padding-top: 24px;
+  padding-left: 140px;
+}
+.logo h1 {
+  font-size: 42px;
+  font-family: "SegoeWPLight";
+  margin-left: 17px;
+  font-weight: lighter;
+}
+nav {
+  display: flex;
+  right:139px;
+  position: absolute;
+  top: 50px;
+}
+nav a {
+  margin-left: 38px;
+  font-size: 20px;
+  color: #6c6c6c;
+  text-decoration: none;
+  height: 50px;
+  font-family: "SegoeWPN";
+}
+nav a:hover {
+  border-bottom: 3px solid #5094f2;
+}
+.banner {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  height: 480px;
+  background-size: cover;
+  width: 100%;
+  margin-top: 13px;
+  position: relative;
+  z-index: 1;
+}
+.phone {
+  padding-top: 40px;
+  padding-left: 178px;
+}
+.text_block {
+  position: absolute;
+  top: 150px;
+  left: 629px;
+  color: white;
+  font-family: "SegoeWPLight";
+}
+.text_block h2 {
+  font-weight: lighter;
+  font-size: 40px;
+}
+.banner_text {
+  margin-top: 20px;
+  width: 236px;
+  font-size: 25px;
+  line-height: 40px;
+}
+.text_block a {
+  background-color: #5095f2;
+  height: 41px;
+  width: 170px;
+  margin-top: 40px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+}
+.text_block a p {
+  padding-left: 40px;
+  padding-top: 6px;
+  color: white;
+  font-size: 20px;
+}
+.text_block a img  {
+  position: absolute;
+  left: 11px;
+  top: 10px;
+}
+.trey {
+  position: absolute;
+  top: 475px;
+  left: 0;
+  width: 100%;
+}
+#services{
+  margin-top: 67px;
+  display: flex;
+  justify-content: center;
+}
+.cont-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "SegoeWPN";
+}
+.cont-blocks h3 {
+  padding-left: 20px;
+  padding-top: 33px;
+  color: #6993ef;
+}
+.block {
+  margin-left: 160px;
+}
+.cont-blocks p {
+  margin-left: -20px;
+  width: 250px;
+  text-align: center;
+}
+.oval {
+  width: 186px;
+  height: 186px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+.oval img {
+  padding-top: 39px ;
+  height: 108px;
+}
+#info {
+  font-family: "SegoeWPN";
+  margin-top: 90px;
+  margin-left: 160px;
+}
+#info h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+#info img {
+  margin-top: 34px;
+}
+.text {
+  float: right;
+  margin-right: 215px
+}
+.text h3 {
+  font-size: 26px ;
+}
+.text p {
+  width: 450px;
+  margin-top: 40px;
+  font-family: "SegoeWPLight";
+  line-height: 30px;
+  font-size: 16px;
+}
+footer{
+  border-top: 1px solid #e5e5e5;
+  width: 100%;
+  margin-top: 60px;
+}
+footer p {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "SegoeWPLight";
+}
+@media all and (max-width:640px) {
+  .logo {
+    padding-left: 30px;
+  }
+  .mobile-nav {
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-nav {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3px;
+    margin-top: -40px;
+    margin-right: 40px;
+    border-radius: 3px;
+    z-index: 5;
+    width: 48px;
+    height: 34px;
+    background-color: #6993ef;
+  }
+  .cont-menu {
+    position: absolute;
+    background: #163784;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+  }
+  .menu-nav {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-family: "SegoeWPN";
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .line {
+    margin-left: 5px;
+    width: 36px;
+    height: 6px;
+    background-color: white;
+  }
+  .banner {
+    height: 280px;
+  }
+  .phone {
+    padding-left: 30px;
+    width: 0px;
+    height:0px;
+    visibility: hidden;
+  }
+  .text_block {
+    left: 20px;
+    top:20px;
+  }
+  .text_block h2 {
+    font-size: 30px;
+  }
+  .text_block p {
+    font-size: 20px;
+    width: 200px;
+  }
+  .banner_text {
+    margin-top: 10px;
+  }
+  .block {
+    margin-left: 20px;
+    display: flex;
+  }
+  .block h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    height: 25px;
+  }
+  .block p {
+    text-align: left;
+    width: 150px;
+    padding-left: 20px;
+    margin-left: 0;
+    padding-top: 24px;
+    font-size: 16px;
+  }
+  .oval {
+    width: 135px;
+    height: 135px;
+  }
+  .oval img {
+    height: 79px;
+    width: 70px;
+    padding-top: 29px;
+  }
+  .border {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: #cccccc;
+  }
+  #info {
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  #info img {
+    width: 200px;
+    height: 158px;
+    margin-left: 50px;
+  }
+  #info h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .text {
+    float: inherit;
+  }
+  .text h3 {
+    width: 250px;
+  }
+  .text p {
+    width: 300px;
+  }
+
+
+}
