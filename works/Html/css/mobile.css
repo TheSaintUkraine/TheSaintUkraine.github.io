@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.logo {
+  margin-left: 65px;
+  width: 100%;
+}
+.logo p {
+  font-size: 20px;
+}
+nav {
+  visibility: hidden;
+}
+.banner {
+  height: 500px;
+}
+.banner button {
+  margin-top: 77px;
+}
+.banner h1 {
+  font-size: 36px;
+}
+.banner p {
+  font-size: 18px;
+
+}
+.item-feat {
+  margin-left:40px;
+  margin-top: 65px;
+}
+.item-cat {
+  width: 280px;
+  height: 350px;
+  padding: 30px;
+  margin-left: 15px;
+  margin-bottom: 90px;
+}
