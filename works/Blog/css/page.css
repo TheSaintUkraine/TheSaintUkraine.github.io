@@ -1,0 +1,21 @@
+
+
+img {
+  width: 80%;
+  height: 40%;
+  margin-top: 65px;
+  margin-left: 10%;
+}
+p {
+  color:  white;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+.title2 {
+  margin-top: 45px;
+  color:  white;
+  font-size: 36px;
+  font-family: "Arial Bold";
+  text-align: center;
+}

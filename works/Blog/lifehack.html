@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link media="all and (max-width:480px)" rel="stylesheet" href="css/index-mob.css">
+  <script src="jquery.js"></script>
+  <title>Rimworld Helper</title>
+</head>
+<body>
+  <a href="index.html"><div class="logo">
+    <h1>Rimworld</h1>
+  </div>
+</a>
+  <header>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="news.html">Новости</a>
+      <a href="base.html">Базы</a>
+      <a href="">Советы</a>
+    </nav>
+  </header>
+  <main>
+    <h2 class="title">Советы</h2>
+    <div class="item-cont">
+
+    </div>
+  </main>
+  <footer>
+    <div class="cont-a">
+    <a class="foo-a" href="http://thesaint.pp.ua"><p>Author</p></a>
+    <a class="foo-a" href="https://store.steampowered.com/app/294100/RimWorld/"><p>Buy Rimworld</p></a>
+
+  </div>
+  </footer>
+<script src="js/openUrl.js"></script>
+
+<script type="text/javascript">
+  var html="";
+    function send(method,url) {
+      var xhr = new XMLHttpRequest();
+      xhr.open(method,url);
+      xhr.onload = function () {
+
+        showArticle(JSON.parse(xhr.response));
+
+      }
+      xhr.send();
+    }
+    function showArticle(data) {
+      for (var i = 0; i != data.length; i++) {
+        console.log(i)
+        if (data[i].tag == 'Совет') {
+          html = html + '<a href="page.html" onclick="saveBody('+i+')"><div style="background-image: url('+data[i].img+')" class="item "><div style="background-color:#9786bd;" class="tag-item"><p>'+data[i].tag+'</p></div><div class="name-item"><p>'+data[i].title+'</p></div></div></a>'
+        }
+      }
+      $('.item-cont').html(html);
+    }
+    send("GET","http://192.168.0.102:3000");
+  </script>
+</body>
+</html>

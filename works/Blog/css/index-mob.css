@@ -1,0 +1,56 @@
+body,div {
+  overflow-x: hidden;
+}
+.logo {
+  padding-top: 40px;
+  height: 126px;
+  width: 100%;
+}
+.slider {
+  width: 0;
+  height: 0;
+}
+.logo h1 {
+  font-size:300%;
+}
+header {
+  height: 409px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+nav a {
+  padding-bottom: 15px;
+  height: 60px;
+  width: 159px;
+  font-size: 47px;
+  border-right: none;
+  border-bottom: 2px solid white;
+}
+a{
+  width: 100%;
+}
+.title {
+  font-size:280%;
+}
+.item {
+  margin-right: 0;
+  width: 100%;
+}
+footer {
+  margin-top: 27px;
+}
+.cont-a {
+  margin-left: 0;
+  justify-content: center;
+
+}
+.foo-a {
+  padding-bottom: 25px;
+  text-align: center;
+  margin-right: 0;
+  font-size: 37px;
+}
