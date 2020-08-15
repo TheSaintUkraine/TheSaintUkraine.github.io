@@ -1,1 +1,1 @@
-var url_server = "http://192.168.0.102:3000";
+var url_server = "https://api.jsonbin.io/b/5f3806ac4d93991036155fe8";
