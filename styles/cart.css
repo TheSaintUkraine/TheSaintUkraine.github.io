@@ -1,0 +1,40 @@
+.info-cart {
+  margin-top: 75px;
+  text-align: center;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+.about-cart {
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+margin-bottom: 50px;
+}
+.demo {
+  padding: 15px;
+  width: 117px;
+height: 55px;
+font-weight: 300;
+font-size: 17px;
+line-height: 20px;
+color: white;
+border: 1px solid white;
+margin-top: 50px;
+}
+.info-cart img {
+  width: 100%;
+  margin-top: 50px;
+}
+.article {
+  margin-top: 30px;
+  width: 403px;
+height: 484px;
+  padding-right: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}

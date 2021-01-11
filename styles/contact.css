@@ -1,0 +1,43 @@
+.about-contact {
+  justify-content: center;
+  margin-top: 100px;
+}
+.about-contact h2{
+  font-weight: 500;
+  font-size: 24px;
+}
+.about-contact p{
+  font-weight: 300;
+font-size: 17px;
+margin-top: 25px;
+}
+input {
+  height: 33px;
+width: 100%;
+background: transparent;
+color: white;
+padding-left: 10px;
+font-size: 17px;
+margin-top: 25px;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+textarea {
+width: 100%;
+background: transparent;
+color: white;
+padding-left: 10px;
+font-size: 17px;
+margin-top: 25px;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+button {
+  margin-top: 50px;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #FFFFFF;
+  width: 117px;
+height: 55px;
+}
